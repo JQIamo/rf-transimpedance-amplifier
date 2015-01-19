@@ -14,12 +14,12 @@ UsedLibrary="/Users/npisenti/Documents/jqi/eagle-config/lbr-jqi/pinhead.lbr"
 UsedLibrary="/Users/npisenti/Documents/jqi/eagle-config/lbr-jqi/regulator-jqi.lbr"
 UsedLibrary="/Users/npisenti/Documents/jqi/eagle-config/lbr-jqi/rf-jqi.lbr"
 UsedLibrary="/Users/npisenti/Documents/jqi/eagle-config/lbr-jqi/rlc-jqi.lbr"
-UsedLibrary="/Users/npisenti/Documents/jqi/eagle-config/lbr-jqi/supply1.lbr"
 UsedLibrary="/Users/npisenti/Documents/jqi/eagle-config/lbr-jqi/semiconductor-jqi.lbr"
+UsedLibrary="/Users/npisenti/Documents/jqi/eagle-config/lbr-jqi/supply1.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="32 145 631 544"
+Loc="360 248 959 647"
 State=2
 Number=0
 
