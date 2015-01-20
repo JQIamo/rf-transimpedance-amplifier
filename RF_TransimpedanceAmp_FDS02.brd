@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -139,7 +139,7 @@
 <wire x1="0" y1="38.1" x2="0" y2="0" width="0" layer="20"/>
 <text x="0" y="40.894" size="1.778" layer="48">34 mil 50ohm trace</text>
 <hole x="53.34" y="35.56" drill="2.9464"/>
-<hole x="55.88" y="13.6144" drill="2.9464"/>
+<hole x="53.34" y="13.6144" drill="2.9464"/>
 <hole x="2.54" y="35.56" drill="2.9464"/>
 <hole x="2.54" y="13.6144" drill="2.9464"/>
 </plain>
