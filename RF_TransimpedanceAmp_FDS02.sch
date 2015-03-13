@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1295,18 +1295,30 @@
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="CP3" library="rlc-jqi" deviceset="CAP-POL" device="PANASONIC_F"/>
 <part name="IC4" library="regulator-jqi" deviceset="ADM7150" device="" value="ADM7150ARDZ-3.0"/>
-<part name="C2" library="rlc-jqi" deviceset="CAP" device="1210" value="10uF"/>
-<part name="C3" library="rlc-jqi" deviceset="CAP" device="1210" value="10uF"/>
+<part name="C2" library="rlc-jqi" deviceset="CAP" device="0805" value="10uF">
+<attribute name="PARTNO" value="1276-2890-1-ND"/>
+</part>
+<part name="C3" library="rlc-jqi" deviceset="CAP" device="0805" value="10uF">
+<attribute name="PARTNO" value="1276-2890-1-ND"/>
+</part>
 <part name="C11" library="rlc-jqi" deviceset="CAP" device="0402" value="1uF"/>
 <part name="C12" library="rlc-jqi" deviceset="CAP" device="0402" value="1uF"/>
-<part name="C13" library="rlc-jqi" deviceset="CAP" device="1210" value="10uF"/>
+<part name="C13" library="rlc-jqi" deviceset="CAP" device="0805" value="10uF">
+<attribute name="PARTNO" value="1276-2890-1-ND"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="IC5" library="regulator-jqi" deviceset="ADM7150" device="" value="ADM7150ARDZ-5.0"/>
-<part name="C14" library="rlc-jqi" deviceset="CAP" device="1210" value="10uF"/>
-<part name="C15" library="rlc-jqi" deviceset="CAP" device="1210" value="10uF"/>
+<part name="C14" library="rlc-jqi" deviceset="CAP" device="0805" value="10uF">
+<attribute name="PARTNO" value="1276-2890-1-ND"/>
+</part>
+<part name="C15" library="rlc-jqi" deviceset="CAP" device="0805" value="10uF">
+<attribute name="PARTNO" value="1276-2890-1-ND"/>
+</part>
 <part name="C16" library="rlc-jqi" deviceset="CAP" device="0402" value="1uF"/>
 <part name="C17" library="rlc-jqi" deviceset="CAP" device="0402" value="1uF"/>
-<part name="C18" library="rlc-jqi" deviceset="CAP" device="1210" value="10uF"/>
+<part name="C18" library="rlc-jqi" deviceset="CAP" device="0805" value="10uF">
+<attribute name="PARTNO" value="1276-2890-1-ND"/>
+</part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device="" value="+3V"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -1362,21 +1374,33 @@
 <attribute name="NAME" x="53.34" y="73.66" size="2.032" layer="95"/>
 <attribute name="VALUE" x="46.99" y="54.61" size="2.032" layer="95"/>
 </instance>
-<instance part="C2" gate="G$1" x="19.05" y="73.66" rot="R270"/>
-<instance part="C3" gate="G$1" x="97.79" y="73.66" rot="R270"/>
+<instance part="C2" gate="G$1" x="19.05" y="73.66" rot="R270">
+<attribute name="PARTNO" x="19.05" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="97.79" y="73.66" rot="R270">
+<attribute name="PARTNO" x="97.79" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C11" gate="G$1" x="90.17" y="66.04" rot="R270"/>
 <instance part="C12" gate="G$1" x="29.21" y="63.5" rot="R270"/>
-<instance part="C13" gate="G$1" x="39.37" y="55.88" rot="R270"/>
+<instance part="C13" gate="G$1" x="39.37" y="55.88" rot="R270">
+<attribute name="PARTNO" x="39.37" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND1" gate="1" x="53.34" y="44.45"/>
 <instance part="IC5" gate="G$1" x="57.15" y="16.51" smashed="yes">
 <attribute name="NAME" x="54.61" y="24.13" size="2.032" layer="95"/>
 <attribute name="VALUE" x="48.26" y="5.08" size="2.032" layer="95"/>
 </instance>
-<instance part="C14" gate="G$1" x="20.32" y="24.13" rot="R270"/>
-<instance part="C15" gate="G$1" x="99.06" y="24.13" rot="R270"/>
+<instance part="C14" gate="G$1" x="20.32" y="24.13" rot="R270">
+<attribute name="PARTNO" x="20.32" y="24.13" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C15" gate="G$1" x="99.06" y="24.13" rot="R270">
+<attribute name="PARTNO" x="99.06" y="24.13" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C16" gate="G$1" x="91.44" y="16.51" rot="R270"/>
 <instance part="C17" gate="G$1" x="30.48" y="13.97" rot="R270"/>
-<instance part="C18" gate="G$1" x="40.64" y="6.35" rot="R270"/>
+<instance part="C18" gate="G$1" x="40.64" y="6.35" rot="R270">
+<attribute name="PARTNO" x="40.64" y="6.35" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND9" gate="1" x="54.61" y="-5.08"/>
 <instance part="+3V1" gate="G$1" x="97.79" y="85.09"/>
 <instance part="P+1" gate="1" x="99.06" y="34.29"/>
