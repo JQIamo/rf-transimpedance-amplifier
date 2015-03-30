@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -432,7 +432,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules>
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -896,9 +896,6 @@ design rules under a new name.</description>
 <via x="13.2334" y="-46.5328" extent="1-16" drill="0.7"/>
 <via x="13.1572" y="-44.196" extent="1-16" drill="0.7"/>
 <via x="10.4902" y="-40.386" extent="1-16" drill="0.7"/>
-<wire x1="25.146" y1="-30.5562" x2="26.8732" y2="-32.385" width="0" layer="19" extent="1-1"/>
-<wire x1="25.1714" y1="-9.0678" x2="27.0256" y2="-11.0998" width="0" layer="19" extent="1-1"/>
-<wire x1="25.146" y1="-19.9136" x2="27.178" y2="-21.971" width="0" layer="19" extent="1-1"/>
 <via x="9.0424" y="-31.877" extent="1-16" drill="0.7"/>
 <via x="7.3406" y="-15.6972" extent="1-16" drill="0.7"/>
 <via x="4.9784" y="-8.9408" extent="1-16" drill="0.7"/>
@@ -925,6 +922,9 @@ design rules under a new name.</description>
 <via x="38.1254" y="13.7414" extent="1-16" drill="0.7"/>
 <via x="16.129" y="9.9314" extent="1-16" drill="0.7"/>
 <via x="33.4518" y="-34.2392" extent="1-16" drill="0.7"/>
+<wire x1="25.146" y1="-30.5562" x2="26.8732" y2="-32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="25.1714" y1="-9.0678" x2="27.0256" y2="-11.0998" width="0" layer="19" extent="1-1"/>
+<wire x1="25.146" y1="-19.9136" x2="27.178" y2="-21.971" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="IC5" pad="2"/>
